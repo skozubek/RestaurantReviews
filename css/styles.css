@@ -252,13 +252,6 @@ nav h1 a {
 #restaurant-hours  {
 	font-size: 1em;
 }
-
-.goright {
-  color: green;
-	text-align: right;
-	font-size: 0.9em;
-}
-
 #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   padding: 10px 30px 60px;
@@ -288,28 +281,33 @@ nav h1 a {
 }
 #reviews-list p {
   margin: 0 0 10px;
+	line-height: 1.2em;
 }
 
+/* ===========tyles for JS added HTML code=========== */
 .added-by {
 	display: inline-block;
 	font-weight: bold;
 	color: #333;
 	width: 50%;
 }
-
 .added-on {
 	color: green;
 	display: inline-block;
 	width: 50%;
 	text-align: right;
 }
-
 .added-rating {
 	color: #333;
 	font-weight: bold;
 }
+.goright {
+  color: green;
+	text-align: right;
+	font-size: 0.9em;
+}
 
-/* smaller screens */
+/* ===========smaller screens =============*/
 @media screen and (max-width: 785px) {
 	.inside #maincontent{
 		display: flex;
@@ -348,14 +346,12 @@ nav h1 a {
 	  line-height: 1;
 		letter-spacing: 0.2em;
 	}
-
 	.filter-options select {
 	  background-color: white;
 	  border: 1px solid #fff;
 	  font-size: 0.8em;
 		width: 150px;
 	}
-
 	nav h1 a {
 	  color: #fff;
 	  font-size: 1em;
@@ -363,7 +359,6 @@ nav h1 a {
 	  letter-spacing: 0.5em;
 	  text-transform: uppercase;
 	}
-
 	#map {
 	  height: 250px;
 	  width: 100%;
@@ -376,8 +371,7 @@ nav h1 a {
 		 flex-wrap: nowrap;
 		 flex-direction: column;
 		 float: left;
-		 }
-
+	}
 	 .filter-options h2 {
  	  font-size: 1em;
  	  font-weight: normal;
@@ -385,4 +379,14 @@ nav h1 a {
  		letter-spacing: 0.2em;
 		padding: 0;
  	}
+	restaurant-address {
+	  font-size: 1em;
+	  margin: 10px 0;
+	}
+	#restaurant-hours  {
+		font-size: 0.9em;
+	}
+	#reviews-list p {
+		font-size: 0.9em;
+	}
  }

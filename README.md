@@ -1,6 +1,6 @@
 # Restaurant Reviews App. Udacity FEND project
 
-## App URL on GitHub: `https://skozubek.github.io/RestaurantReviews/`
+## [App URL on GitHub](https://skozubek.github.io/RestaurantReviews/)
 
 ## Project Overview: Stage 1
 

@@ -1,6 +1,6 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews App. Udacity FEND project
+
+## App URL on GitHub: `https://skozubek.github.io/RestaurantReviews/`
 
 ## Project Overview: Stage 1
 
